@@ -407,6 +407,10 @@ li {
     padding-bottom: 3px;
   }
 
+  .logo>a>img {
+    width: 80px;
+  }
+
   .btn {
     border: 2px solid #FF0202;
     border-radius: 10px;
