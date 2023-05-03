@@ -401,6 +401,11 @@ li {
   .affix {
     background-color: rgb(0, 0, 0);
   }
+  
+  .nav div.logo {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
 
   .btn {
     border: 2px solid #FF0202;
