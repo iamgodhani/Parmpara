@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+h1,
+h2,
+h4 {
+  line-height: 1.2;
+  font-family: 'Noto Serif Display', serif;
+}
+
+h1 {
+  font-size: 61px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 49px;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 39px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+h4 {
+  font-size: 31px;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
+
+p {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+  margin: 0px;
+}
+
+li {
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.green {
+  color: #20DA0F;
+}
+
+.yellow {
+  color: #F6BF31;
+}
+
+.break {
+  display: inline;
+}
+
+.container {
+  position: relative;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.break1 {
+  display: block;
+}
+
+@media screen and (max-width:465px) {
+
+  h1 {
+    font-size: 50px;
+    font-weight: 200;
+  }
+
+  h2 {
+    font-size: 40px;
+    font-weight: 200;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  h5 {
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  p {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0.8;
+    line-height: 1.6;
+  }
+
+  .break1 {
+    display: block;
+  }
+
+  .break {
+    display: inline;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .reverse-column {
+    flex-direction: column-reverse;
+  }
+
+}
+
+/*-- Inspiration taken from abdo steif -->
+/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
+/* Navbar section */
+
+.nav {
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 1px 50px rgba(150, 150, 150, 0.5);
+  z-index: +1;
+}
+
+.affix {
+  background-color: rgb(0, 0, 0);
+}
+
+.nav div.logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* Home section */
+
+.landing-page {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.landing-page-image {
+  position: relative;
+  margin: auto;
+}
+
+.landing-page-contant {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+
+.btn {
+  border: 2px solid #FF0202;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  color: #FF0202;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border-radius: 10px;
+  background-color: #FF0202;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+
+.wrapper-headline {
+  text-align: center;
+  margin: 350px auto;
+}
+
+.wrapper-contant {
+  padding: 150px 0px;
+  max-width: 550px;
+  margin: auto;
+}
+
+.mfg {
+  margin-top: 50px;
+}
+
+.mfg-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 750px;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.mfg-headline>h4 {
+  padding: 10px 3px;
+}
+
+.mfg-headline {
+  max-width: 750px;
+  margin: auto;
+}
+
+.photo>img {
+  border-radius: 25px;
+}
+
+.ghani {
+  margin: 0px 50px;
+}
+
+.mfg-contant {
+  max-width: 350px;
+}
+
+.mfg-caution {
+  position: absolute;
+  top: 2800px;
+  left: 700px;
+  max-width: 390px;
+  background-color: #F6BF31;
+}
+
+.mfg-caution>p {
+  padding: 10px;
+}
+
+.pkg-headline {
+  max-width: 750px;
+  margin: 120px auto 0px auto;
+}
+
+
+.seeds,
+.filter {
+  padding-right: 50px;
+}
+
+.extraction,
+.pkg {
+  padding-right: 50px;
+}
+
+.benefits {
+  margin: 100px auto 0px auto;
+}
+
+.bnf-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 750px;
+  margin: 200px auto;
+}
+
+.bnf-contant {
+  margin: 50px 0px;
+}
+
+.bac-contant {
+  max-width: 750px;
+}
+
+.bnf-icon {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+
+li {
+  margin: 10px 0px;
+}
+
+.icon {
+  height: 150px;
+  width: 135px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.heart,
+.brain,
+.skin,
+.Immune,
+.Cholesterol,
+.Diabetes,
+.inr,
+.delivery,
+.chat {
+  width: 335px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.chem-container {
+  background-color: rgb(255, 255, 0, 0.9);
+}
+
+.chem-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 750px;
+  margin: auto;
+  padding: 200px 0px;
+}
+
+.chem-free {
+  max-width: 550px;
+  margin-left: 50px;
+  color: black;
+}
+
+.support-container {
+  background-color: #000000;
+}
+
+.support-wrapper {
+  text-align: center;
+  max-width: 750px;
+  margin: auto;
+}
+
+.support-icon {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.support-wrapper>h3 {
+  padding: 50px;
+}
+
+.si>img {
+  width: 100px;
+  margin: auto;
+}
+
+.support-contant {
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.reviwe {
+  margin: 100px auto;
+  max-width: 750px;
+}
+
+@media screen and (max-width:465px) {
+
+  .nav {
+    position: fixed;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 1px 50px rgba(150, 150, 150, 0.5);
+    z-index: +1;
+  }
+
+  .affix {
+    background-color: rgb(0, 0, 0);
+  }
+
+  .btn {
+    border: 2px solid #FF0202;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FF0202;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    border-radius: 10px;
+    background-color: #FF0202;
+    color: white;
+    transition-duration: 0.4s;
+  }
+
+  .landing-page {
+    text-align: center;
+  }
+
+  .landing-page-contant {
+    position: relative;
+    margin-top: 0px;
+    padding: 20px;
+  }
+
+  .mfg {
+    margin: 50px 25px;
+  }
+
+  .ghani {
+    margin: auto;
+  }
+
+  .pkg,
+  .extraction {
+    padding: 15px 0px;
+  }
+
+  .seeds,
+  .filter {
+    padding: 0px;
+  }
+
+  .wrapper-headline {
+    margin: 300px auto;
+    text-align: center;
+  }
+
+  .wrapper-contant {
+    padding: 75px 25px;
+  }
+
+  .photo>img {
+    border-radius: 25px;
+  }
+
+  .mfg-contant {
+    max-width: 350px;
+    margin-top: 50px;
+  }
+
+  .mfg-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    margin: 100px auto;
+  }
+
+  .benefits {
+    margin: 100px auto 0px auto;
+  }
+
+  .bnf-wrapper {
+    margin: 100px 25px;
+  }
+
+  .chem-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    margin: auto;
+    padding: 80px 0px;
+  }
+
+  .chem-free {
+    margin-left: auto;
+    max-width: 350px;
+  }
+
+  .chem-free-icon {
+    margin: 65px auto;
+  }
+
+}
+
+.form-container {
+  margin: auto;
+}
+
+form {
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 10px 20px;
+  background: #000000;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255, 255, 255);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #000;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+form>button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin: 50px auto 0px auto;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  float: left;
+  color: rgb(255, 255, 255);
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+
+@media screen and (min-width: 465px) {}
+
+
+:-webkit-any(article, aside, nav, section) h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
